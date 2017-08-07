@@ -16,9 +16,6 @@
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     </properties>
 
-    <properties>
-        <spring.version>4.2.5.RELEASE</spring.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>log4j</groupId>
@@ -121,8 +118,6 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
-
-
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>

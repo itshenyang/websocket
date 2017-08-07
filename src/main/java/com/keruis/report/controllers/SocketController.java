@@ -8,7 +8,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 /**
  * Created by Administrator on 2017/1/10.
  */
-@ServerEndpoint("/websocket")
+@ServerEndpoint("/socket")
 public class SocketController {
     //静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。
     private static int onlineCount = 0;
